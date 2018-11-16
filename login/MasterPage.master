@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="login_MasterPage" %>
+
+<!DOCTYPE html>
+
+<head id="Head1" runat="server">
+   <title>grievence</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+<link href="css/Admin.css" rel="stylesheet" />
+    <link href="css/home.css" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css"/>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+       
+            <div class="container">
+
+		<img alt="" src="images/ic_logo.png" class="img-responsive imageClip"
+		>
+
+		
+		<div id='cssmenu'>
+<ul>
+   <li class="active"><a href='adminHomePage.aspx'><span>Home</span></a></li>
+    <li class='has-sub'><a href='#'><span>Add</span></a>
+      <ul>
+         <li class='has-sub'><a href='studentRegister.aspx'><span>Add Student  </span></a>
+            
+               <li><a href='staffRegister.aspx'><span>Add Staff</span></a></li>
+             <li><a href='nonteachRegister.aspx'><span>Add Non Teaching Staff</span></a></li><li><a href='laptechRegister.aspx'><span>Add Lab Workers</span></a></li>
+               
+            
+         </li>
+         
+            </ul>
+         </li>
+      
+   
+   <li class='has-sub'><a href='#'><span>View|Edit|Delete Grievance</span></a>
+      <ul>
+         <li class='has-sub'><a href="viewStudentGrievance.aspx"><span>Grievance on Student</span></a>
+            
+               <li><a href="viewStaffGrievance.aspx"><span>Grievance on Staff</span></a> </li>
+                   <li><a href="viewEpGrievance.aspx"><span>Grievance on Equipments</span></a></li>
+              <li> <a href="viewFoodGrievance.aspx"><span>Grievance on Food</span></a></li>
+            
+               <li><a href="viewSportsGrievance.aspx"><span>Grievance on Sports</span></a> </li>
+                   <li><a href="viewBusGrievance.aspx"><span>Grievance on Bus</span></a></li>
+             <li><a href="viewGeneralGrievance.aspx"><span>Grievance on General</span></a></li>
+              
+               
+            
+         </li>
+         
+            </ul>
+         </li>
+    <li class='has-sub'><a href='#'><span>View|Edit|Delete Users</span></a>
+      <ul>
+         <li class='has-sub'><a href="viewStudentInformation.aspx"><span>Students</span></a>
+            
+               <li><a href="viewStaffInformation.aspx"><span>Staffs</span></a> </li>
+                   <li><a href="viewNontechInformation.aspx"><span>Non Teaching Staffs</span></a></li>
+              <li> <a href="viewLabInformation.aspx"><span> Lab Workers</span></a></li>
+            
+              
+
+              
+               
+            
+         </li>
+         
+            </ul>
+         </li>
+  
+
+    
+
+      
+      
+   
+  
+   
+
+   <li class='last'><a href='loginpage.aspx'><span>Logout</span></a></li>
+    <li class='last'><span>UserName:Admin</span></a></li>
+</ul>
+</div>
+
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+  
+    <div class="row" id="footer">
+			<p>@Copyrights from UG Department of Computer Application</p>
+		</div>
+    </div>
+        </div>
+        </form>
+</body>
+</html>

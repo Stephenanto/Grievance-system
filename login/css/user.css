@@ -1,0 +1,65 @@
+@CHARSET "ISO-8859-1";
+.container {
+	
+	margin-top: 20px;
+
+padding:0px 0px 0px 0px;
+width:calc(100% - 342px);
+box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
+border-radius:10px;
+}
+
+.imageClip{
+    width:1024px;
+    height:90px;
+    overflow:hidden;
+    
+}
+
+#marquee {
+	padding: 0px 14px 0px 14px;
+}
+
+#rules {
+	margin-top: 20px;
+}
+
+#main {
+	
+
+padding:0px 0px 0px 0px;
+width:calc(100% - 342px);
+box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
+border-radius:10px;
+}
+
+#rules p {
+	margin-left: 50px; 
+	color: #127093; 
+	font-size: 20px;
+}
+
+#rule {
+	margin-left: 100px;
+}
+
+#rule p{
+	font-size: (100% - 300px);
+}
+
+#demo {
+	margin-bottom: 20px;
+}
+
+#footer {
+	background-color: #127093;
+	height: 40px;
+	padding: 8px 0px 0px 300px;
+	border-radius:10px;
+}
+
+#footer p {
+	color: white;
+	
+	font-size: 15px;
+}

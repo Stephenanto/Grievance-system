@@ -1,0 +1,88 @@
+@CHARSET "ISO-8859-1";
+
+.container {
+	
+	margin-top: 40px;
+margin-bottom: 20px;
+padding:0px 0px 0px 0px;
+width:calc(100% - 342px);
+box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
+border-radius:10px;
+}
+
+.imageClip{
+    width:1024px;
+    height:90px;
+    overflow:hidden;
+    
+}
+
+#marquee {
+	padding: 0px 14px 0px 14px;
+}
+
+#key {
+	height: 75px;
+	width: 75px;
+}
+
+#side2 {
+	margin-top: 40px;
+	margin-left: 100px;
+	padding: 0px 30px 0px 14px;
+}
+
+#side1 {
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+#footer {
+	background-color: #33A0CC;
+	height: 40px;
+	padding: 8px 0px 0px 300px;
+	border-radius:10px;
+}
+
+#footer p {
+	color: white;
+	
+	font-size: 15px;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.modal-dialog {
+    margin: 30px auto;
+    width: 700px;
+}
+
+#title {
+	padding: 15px;
+}
+
+#step1 {
+	margin-left: 100px;
+}
+
+#step2 {
+	margin-left: 100px;
+}
+
+#step3 {
+	margin-left: 100px;
+}
+
+#step4 {
+	margin-left: 100px;
+}
+
+
+.modal-footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 0;
+    text-align: right;
+}

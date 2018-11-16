@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="lapteach.master.cs" Inherits="login_lapteach" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+     <head id="Head1" runat="server">
+ <title>grievence</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+<link href="css/Admin.css" rel="stylesheet" />
+    <link href="css/home.css" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css"/>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div>
+       
+            <div class="container">
+
+		<img alt="" src="images/ic_logo.png" class="img-responsive imageClip"
+		>
+
+		
+		<div id='cssmenu'>
+<ul>
+   <li class="active"><a href="lapteachHomePage.aspx"><span>Home</span></a></li>
+    
+
+      
+   
+   <li class='has-sub'><a href='#'><span>Add Grievance</span></a>
+      <ul>
+         <li class='has-sub'><a href="labGrievanceOnStudent.aspx"><span>Grievance on Student</span></a>
+            
+               <li><a href="labGrievanceOnStaff.aspx"><span>Grievance on Staff</span></a> </li>
+                   <li><a href="labGrievanceOnEq.aspx"><span>Grievance on Equipments</span></a></li>
+              <li> <a href="labGrievanceOnFood.aspx"><span>Grievance on Food</span></a></li>
+            
+               <li><a href="labGrievanceOnSports.aspx"><span>Grievance on Sports</span></a> </li>
+                   <li><a href="labGrievanceOnBus.aspx"><span>Grievance on Bus</span></a></li>
+             <li><a href="labGrievanceOnEq.aspx"><span>Grievance on Environment</span></a></li>
+             <li><a href="labGrievanceOnGeneral.aspx"><span>Grievance on General</span></a></li>
+              
+               
+            
+         </li>
+         
+            </ul>
+         </li>
+   
+
+   
+
+      
+      
+   
+  
+   <li><a href="changePasswordLap.aspx"><span>Change Password</span></a></li>
+   <li class='last'><a href="laptechLoginPage.aspx"><span>Logout</span></a></li> <li><span>
+         <asp:Label ID="Label2" runat="server" Text="" ></asp:Label></span></li>
+</ul>
+</div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+     <div class="row" id="footer">
+			<p>@Copyrights from UG Department of Computer Application</p>
+		</div>
+                </div>
+             </div>
+       
+    </form>
+</body>
+</html>
